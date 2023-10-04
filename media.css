@@ -1,0 +1,98 @@
+@media screen and (max-width:996px) {
+    header nav .menu-btn  {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+nav {
+    position: relative;
+}
+
+nav menu {
+    display: none;
+    position: relative;
+}
+
+nav #menu.responsive {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: #222;
+   position: absolute;
+   top: 60px;
+   left: 0;
+   width: 100%;
+   animation: menu-anim 2s ease-in 1; 
+}
+
+@keyframes menu-anim {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+/* Home section */
+#home h1 {
+    font-size: 3em;
+}
+
+#home h2 {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+/* About section */
+
+#about {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#about >.col {
+    width: 100%;
+}
+
+#about >.col:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
+ 
+/* resume*/
+#Resume {
+    display: flex;
+    height: 100%;
+ }
+
+/* project content*/
+
+#project {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+#project .card-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+/* CONTACT */
+
+#contact {
+ display: flex;
+ height: ;
+}
